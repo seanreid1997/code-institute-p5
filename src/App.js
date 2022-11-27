@@ -1,12 +1,16 @@
-import Button from 'react-bootstrap/Button';
-import styles from "./styles/Test.module.css";
+import Container from "react-bootstrap/Container";
+import { Route, Switch } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div className={styles.Test}>
-      <Button variant="primary">Primary</Button>
-      <h1>Hello world</h1>
+    <div>
+      <Container>
+        <Switch>
+          <Route exact path="/" render={() => <h1>Home</h1>} />
+          <Route render={() => <p>Page not found!</p>} />
+        </Switch>
+      </Container>
     </div>
   );
 }
