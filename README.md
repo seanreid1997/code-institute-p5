@@ -1,70 +1,439 @@
-# Getting Started with Create React App
+# Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developer: Sean Reid
 
-## Available Scripts
+<img src="">
+<a href="">Live App</a>
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Targeted Audience](#targeted-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Flowchart](#flowchart)
+    2. [User Manual](#user-manual)
+    3. [Agile Methodologies](#agile-methodologies)
+    4. [Data Models](#data-models)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks and Tools](#frameworks-and-tools)
+    3. [Libraries](#libraries)
+5. [Features](#features)
+6. [Testing](#validation)
+7. [Bugs](#Bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Goals
 
-### `npm test`
+### User Goals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+<li></li>
+</ul>
 
-### `npm run build`
+### Site Owner Goals
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ul>
+<li>Provide users with a good experience.</li>
+<li></li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## User Experience
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Targeted Audience
 
-### `npm run eject`
+<ul>
+<li></li>
+</ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### User Requirements and Expectations
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ul>
+<li>Login equired</li>
+<li>Program should run without errors</li>
+</ul>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## User Stories
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### As A First Time User:
 
-## Learn More
+1. I would like the site be tidy with good naveigation.
+2. I would like to create an account.
+3. I want my posts to have their own unique pages. 
+4. 
+5. I want to be able to like other posts.
+6. I want to be able to comment on other posts.
+7. I want to be able to view other users posts.
+8. I want to be able to edit my profile information.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### As A Returning User:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+9. I want to be able to login/logout of my account.
+10. I want my posts and information to be commited to the database to reduce repitition of data entry.
+11. I want to be to contact the administration team if needed.
 
-### Code Splitting
+### As A Site Owner:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+11. 
+12. 
+13. 
+14. 
+15. 
 
-### Analyzing the Bundle Size
+### Description
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Design
 
-### Advanced Configuration
+### Flowchart
+<details><summary>Flowchart</summary>
+<img src="">
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### User Manual
 
-### Deployment
+<details><summary>Overview</summary></details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+#### 
+<ul>
+<li>User must register to access their profile.</li>
+<li>Once registered user can login/logout of their account.</li>
+<li></li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Agile Methodologies
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+### Data Model
+
+<details><summary></summary></details>
+
+## Technologies Used
+
+### Languages
+
+<ul>
+<li>CSS</li>
+<li>Html</li>
+<li>Python</li>
+</ul>
+
+### Frameworks and Tools
+
+<ul>
+<li>Cloudinary</li>
+<li>Diagrams.net - used for flowchart.</li>
+<li>Django</li>
+<li>Git - used for version control within VSCode to push the code to GitHub.</li>
+<li>Github - used as a remote repository to store project code.</li>
+<li>Gitpod - open source developer platform used for project code.</li>
+<li>Google Cloud Platform - used to manage access and permissions to google auth, google sheets, google services, etc.</li>
+<li>Google Sheets API - RESTful interface used read and modify project spreadsheet data.</li>
+<li>Google Sheets - used to store spreadsheet data.</li>
+<li>Heroku - used to deploy project.</li>
+<li>PEP8 - used to validate python code.</li>
+<li>Visual Studio Code - IDE used to write the code for project.</li>
+</ul>
+
+### Libraries
+
+#### Python Libraries
+
+<ul>
+<li>os</li>
+<li></li>
+</ul>
+
+#### 3rd Party Libraries
+
+<ul>
+<li>axios</li>
+</ul>
+
+## Features
+
+### Home Page
+
+<ul>
+<li></li>
+</ul>
+
+## Testing
+
+### Validation
+
+<ul>
+
+<li>Html code was tested via The W3C Markup Validation Service.</li>
+
+<details><summary></summary>
+<img src=""></details>
+
+<li>Css code was tested via The W3C CSS Validation Service.</li>
+
+<details><summary></summary>
+<img src=""></details>
+
+<details><summary></summary>
+<img src=""></details>
+
+<li>Accessability was tested via The WAVE Web Accessibility Evaluation Tool.</li>
+
+<details><summary></summary>
+<img src=""></details>
+
+
+<li>Performance code was tested via The Lighthouse Validation Tool.</li>
+
+<details><summary></summary>
+
+<li>Python code was tested via The PEP8 Python Validator.</li>
+<br>
+<details><summary>social.admin.py</summary>
+<img src=""></details>
+
+<details><summary>social.models.py</summary>
+<img src=""></details>
+
+<details><summary>social.tests.py</summary>
+<img src=""></details>
+
+<details><summary>social.urls.py</summary>
+<img src=""></details>
+
+<details><summary>social.views</summary>
+<img src="media/tempviewspep8valid.jpg"></details>
+
+<details><summary>social_media.settings.py</summary>
+<img src=""></details>
+
+<details><summary>social.urls.py</summary>
+<img src=""></details>
+
+<details><summary>social.wsgi.py</summary>
+<img src=""></details>
+</ul>
+
+### Browser Compatibility
+
+The website was tested on the browsers via:
+<ul>
+<li>Google Chrome</li>
+<li>Microsoft Edge</li>
+<li>Firefox</li>
+</ul>
+
+## User Story Testing
+
+1. I would like the site be tidy with good navigation.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Site should have easy access | Site Navigation | app should operate effeciently  | Works as expected |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+2. I would like to create an account.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+3. I want my posts to have their own unique pages. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+4. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+5. I want to be able to like other posts.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+6. I want to be able to comment on other posts.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+7. I want to be able to view other users posts.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+8. I want to be able to edit my profile information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+9. I want to be able to login/logout of my account.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+10. I want my posts and information to be commited to the database to reduce repitition of data entry.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+11. I want to be to contact the administration team if needed.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+12. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+13. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+14. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+15. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+16. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+## Bugs
+
+
+| **Bugs** | **Fixes** |
+| -------- | --------- |
+| |  |
+
+
+## Unfixed Bugs
+<ul>
+<li></li>
+</ul>
+
+## Deployment
+
+<ul>
+<li>Within the terminal of your workspace enter:"pip3 freeze > requirements.txt".</li>
+<li>Create your Procfile and add "web: gunicorn social_media.wsgi".</li>
+<li>Before deploying, in settings.py set Debug=True to Debug=False.</li>
+<li>Add secret keys to env.py and add env.py to .gitignore file.</li>
+<li>Commit and push these changes.</li>
+<li>Go to the Heroku website and login/create an account.</li>
+<li>Click on the create app button and give it a name. </li>
+<li>Select a region and then click on the create app button.</li>
+<li>Locate and select the "Settings" tab.</li>
+<li>Locate the "Config Vars" button.</li>
+<li>Enter the required key and values.</li>
+<li>Return to the top and select the "Deploy" tab.</li>
+<li>Select "Connect to Github" and then search for you repository.</li>
+<li>Next scroll down and select the "Deploy branch" button and wait a few minutes.</li>
+<li>Select view and yoiu will be redirected to your app.</li>
+</ul>
+
+## Credits
+
+### Code Institute
+
+<ul>
+<li>Template for README file was taken from my third projcet.</li>
+</ul>
+
+#### Other
+
+<ul>
+<li><a href="https://stackoverflow.com/">Stack Overflow</a> provided help on many queries.</li>
+<li>Many tutorials from <a href="https://Youtube.com/">Youtube</li>
+</ul>
+
+## Acknowledgements
+
+ <ul>
+ <li></li>
+ </ul>
+
+ [Return To Top](#Blog)

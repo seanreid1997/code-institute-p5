@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.jpg'
 
 export class HomePage extends Component {
@@ -15,9 +16,9 @@ export class HomePage extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link >Home</Nav.Link>
-            <Nav.Link >Login</Nav.Link>
-            <Nav.Link >Register</Nav.Link>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/login">Login</NavLink>
+            <NavLink to="/register" >Register</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
