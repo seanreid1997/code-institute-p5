@@ -24,15 +24,16 @@ export class HomePage extends Component {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/login">Login</NavLink>
             <NavLink to="/register" >Register</NavLink>
+            <NavLink to="/contact" >Contact Us</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
     </header>
     <Container className={styles.Footer}>
-    <footer>
+    <footer fixed="bottom">
   <div>
-    © 2020 Copyright:
+    © 2023 Copyright:
     <br></br>
     <a href='https://twitter.com/'>
       <i class="fab fa-twitter"></i>

@@ -42,7 +42,6 @@ function LoginForm() {
     <Row>
       <Col className="my-auto p-0 p-md-2" md={6}>
         <Container>
-          <h1> login</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="email">
               <Form.Label className="d-none">Email</Form.Label>

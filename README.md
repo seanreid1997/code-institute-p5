@@ -3,7 +3,7 @@
 Developer: Sean Reid
 
 <img src="">
-<a href="">Live App</a>
+<a href="https://pp5-blog.herokuapp.com/">Live App</a>
 
 
 ## Table of Contents
@@ -36,7 +36,7 @@ Developer: Sean Reid
 ### User Goals
 
 <ul>
-<li></li>
+<li>View, post and interact with blogs on a social media platform</li>
 </ul>
 
 ### Site Owner Goals
@@ -51,7 +51,7 @@ Developer: Sean Reid
 ### Targeted Audience
 
 <ul>
-<li></li>
+<li>Anyone computer literate.</li>
 </ul>
 
 ### User Requirements and Expectations
@@ -215,7 +215,7 @@ Developer: Sean Reid
 <img src=""></details>
 
 <details><summary>social.views</summary>
-<img src="media/tempviewspep8valid.jpg"></details>
+<img src=""></details>
 
 <details><summary>social_media.settings.py</summary>
 <img src=""></details>
@@ -392,7 +392,7 @@ The website was tested on the browsers via:
 
 ## Unfixed Bugs
 <ul>
-<li></li>
+<li>Trying to connect to api returns errors</li>
 </ul>
 
 ## Deployment
@@ -420,20 +420,20 @@ The website was tested on the browsers via:
 ### Code Institute
 
 <ul>
-<li>Template for README file was taken from my third projcet.</li>
+<li>Template for README file was taken from my fourth projcet.</li>
 </ul>
 
 #### Other
 
 <ul>
 <li><a href="https://stackoverflow.com/">Stack Overflow</a> provided help on many queries.</li>
-<li>Many tutorials from <a href="https://Youtube.com/">Youtube</li>
+<li>Tutorials from <a href="https://Youtube.com/">Youtube</li>
 </ul>
 
 ## Acknowledgements
 
  <ul>
- <li></li>
+ <li>The project is incomplete. I did a test project for this project and everything worked fine without the api but when I returned to this one and tried to implement the code it kept returning errors from my api. It was too late to fix it and I'd rather submit an incomplete project than not submit at all.</li>
  </ul>
 
  [Return To Top](#Blog)
