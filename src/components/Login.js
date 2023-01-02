@@ -10,7 +10,6 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 
 function LoginForm() {
-  const setCurrentUser = useContext(SetCurrentUserContext);
 
   const [signInData, setSignInData] = useState({
     email: "",
@@ -26,7 +25,6 @@ function LoginForm() {
 
     try {
       const { data } = await axios.post("/dj-rest-auth/login/", signInData);
-      setCurrentUser(data.user);
       history.push("/");
     } catch (err) {
       setErrors(err.response?.data);
@@ -89,6 +87,7 @@ function LoginForm() {
         </Container>
       </Col>
     </Row>
+    
   );
 }
 

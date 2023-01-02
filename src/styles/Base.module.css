@@ -1,0 +1,31 @@
+Header {
+    background-color: rgb(243, 243, 243);
+    color: #4c4a4a;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+Header a{
+    text-decoration: none;
+    color: rgb(81, 78, 78);
+    font-size: 150%;
+}
+
+Footer {
+    background-color: rgb(243, 243, 243);
+    color: #4c4a4a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+Footer i {
+    color: rgb(81, 78, 78);
+    font-size: 150%;
+    padding: 2%;
+}
+
+
